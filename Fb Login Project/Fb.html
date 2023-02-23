@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Facebook - Login or Sign up</title>
+    <style>
+    .container{ 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    } 
+    body { 
+        padding-left: 6rem;
+        padding-right: 7rem;
+        background: #fae9e9;
+        width: 100%;
+    }
+    .title { 
+        width: 300px;
+        margin-top: 29%;
+        margin-left: -5%;
+    }
+    .intro { 
+        margin-top: -15px;
+        font-family: SFprodisplays-Regular, Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+        line-height: 2rem ;
+        /* background: black; */
+    }
+    .loginform { 
+        background: #fff;
+        width: 22rem;
+        height: 25rem;
+        border-radius: .5rem;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+        margin-top: 15%;
+        padding: 0 .8rem;
+        line-height:2rem; 
+        text-align: center;
+    }
+
+    input{ 
+        margin-top: 5%;
+        padding-left: 1rem;
+    }
+    
+    .email { 
+        height: 3rem;
+        width: 90%;
+        border-radius: .5rem;
+        font-size: 1rem;
+        border-color:#eedcdc;
+    }
+    .email:focus { 
+        outline-color: #276fce;
+    }
+    .password { 
+        height: 3rem;
+        width: 90%;
+        border-radius:.5rem;
+        font-size: 1rem;
+        border-color:#eedcdc;
+    }
+    .password:focus{ 
+        outline-color: #276fce;
+    }
+    .btn{ 
+        height: 3rem;
+        width: 95%;
+        padding: 0 20px;
+        border-radius: .5rem;
+        font-size: 1rem;
+        background-color: #1877f2;
+        border: none;
+        font-size: 25px;
+        color: #fff;
+        line-height: 48px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .btn:hover{ 
+        background: #1554a7;
+    }
+    .forgot { 
+        margin-top: 10px;
+        color: #1877f2;
+        cursor: pointer;
+    }
+    .forgot:hover { 
+        text-decoration: underline;
+    }
+    .submit_btn { 
+        height: 3.5rem ; 
+        width: 58%;
+        border-radius: .5rem;
+        font-size: 20px;
+        background:#279618 ;
+        color:#fff;
+        border: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .submit_btn:hover { 
+        background:#228315;
+    }
+    .form_footer { 
+        position: absolute;
+        top: 83%;
+        left: 60%;
+    }
+    .bold { 
+        font-weight: bold;
+    }
+    .bold:hover{ 
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="body">
+            <div class="title">
+            <img src = "facebook.svg">
+            </div>
+            <div class="intro">
+            Connect with Friends and the world
+            <br> around you on Facebook.
+            </div>
+        </div>
+        <div class="loginform">
+            <input  type= "text "class="email" placeholder=" Email or phone number ">
+            <br>
+            <input type="password" class="password" placeholder=" Password">
+            <br>
+            <input type="button" class = "btn " value="Log In" >
+        <div class="forgot" >
+            Forgot Password?
+        </div>
+        <hr> </hr>
+            <input type = "button" class = "submit_btn" value="Create new account ">
+             </div>
+             <div class="form_footer">
+                <span class="bold">Create a Page</span> <span>for a celebrity brand or business.</span>
+         </div>
+        </div>
+    </div>
+    
+</body>
+</html>
